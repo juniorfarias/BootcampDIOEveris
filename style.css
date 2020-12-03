@@ -1,5 +1,6 @@
 body {
     background: greenyellow;
+    font-family: Verdana;
 }
 .photo {
     border: 1px solid black;
@@ -7,6 +8,10 @@ body {
 }
 #title, .subtitle, .post_title {
     color: blueviolet;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: line-through;
 }
 .post_title {
     font-size: 16px;
@@ -25,6 +30,7 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 .post_image {
     margin: 0;
